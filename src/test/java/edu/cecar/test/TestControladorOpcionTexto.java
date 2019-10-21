@@ -25,12 +25,14 @@ public final class TestControladorOpcionTexto {
         ControladorOpcionesTexto controladorOpcionesTexto = new ControladorOpcionesTexto();
         controladorOpcionesTexto.mostrarContenido("archivoprueba.txt");
         controladorOpcionesTexto.opcionSinOpcion("archivoprueba.txt");
+        
     }
     
     @Test
     public void testCadedaMasRepite(){
         ControladorOpcionesTexto controladorOpcionesTexto = new ControladorOpcionesTexto();
         controladorOpcionesTexto.cadenaMasRepite("ho", "archivoprueba.txt"); 
+
     }
     
     @Test
