@@ -31,7 +31,7 @@ import static org.junit.Assert.*;
 **/
 public class TestPrograma {
     
-   final String ruta = System.getProperty("user.dir")+File.separator+"Archivos"+File.separator+"ArchivoTest2.txt";
+   final String ruta = System.getProperty("user.dir")+File.separator+"Archivos"+File.separator+"archivoTest2.txt";
    
    @Test
    public void testSinOpcion(){
